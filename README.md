@@ -21,7 +21,7 @@ Binary download
 ===============
 
 A binary download is available <a
-href="blob/master/zips/2012-02-13-x264Codec.component.zip">here</a>.
+href="x264qt-zl/blob/master/zips/2012-02-13-x264Codec.component.zip">here</a>.
 
 To use, simply un-zip and move the x264Codec.component to
 /Library/QuickTime (This may require administrator permissions.)  (Or
