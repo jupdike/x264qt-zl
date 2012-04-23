@@ -1,0 +1,13 @@
+Index: configure
+===================================================================
+--- configure	(revision 600)
++++ configure	(working copy)
+@@ -64,7 +64,7 @@
+ 
+ EXE=""
+ 
+-MACHINE="$(./config.guess)"
++#MACHINE="$(./config.guess)"
+ 
+ case "${MACHINE#*-*-}" in
+   beos*)

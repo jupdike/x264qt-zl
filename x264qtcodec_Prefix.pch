@@ -1,0 +1,5 @@
+//
+// Prefix header for all source files of the 'x264qtcodec' target in the 'x264qtcodec' project.
+//
+
+#include <Carbon/Carbon.h>

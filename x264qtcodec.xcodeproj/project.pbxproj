@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75AF88340963A2A500A43000 /* x264Compressor.c in Sources */ = {isa = PBXBuildFile; fileRef = 75AF88330963A2A500A43000 /* x264Compressor.c */; };
+		75AF88E30963ADB400A43000 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AF88E10963ADB400A43000 /* CoreServices.framework */; };
+		75AF88E40963ADB400A43000 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AF88E20963ADB400A43000 /* QuickTime.framework */; };
+		75AF8B800965C95C00A43000 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AF8B7F0965C95C00A43000 /* QuartzCore.framework */; };
+		75AF8C160965CE6300A43000 /* x264Compressor.r in Rez */ = {isa = PBXBuildFile; fileRef = 75AF8BAA0965CB8700A43000 /* x264Compressor.r */; };
+		75AF8D1F09664F8D00A43000 /* Settings.nib in Resources */ = {isa = PBXBuildFile; fileRef = 75AF8D1D09664F8D00A43000 /* Settings.nib */; };
+		7FC70E8214C904B2005473E4 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC70E8114C904B2005473E4 /* libx264.a */; };
+		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		32BAE0B30371A71500C91783 /* x264qtcodec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264qtcodec_Prefix.pch; sourceTree = "<group>"; };
+		75AF88330963A2A500A43000 /* x264Compressor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x264Compressor.c; sourceTree = "<group>"; };
+		75AF88430963A48F00A43000 /* x264CompressorDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264CompressorDispatch.h; sourceTree = "<group>"; };
+		75AF88E10963ADB400A43000 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = ../../../../../../System/Library/Frameworks/CoreServices.framework; sourceTree = SOURCE_ROOT; };
+		75AF88E20963ADB400A43000 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = ../../../../../../System/Library/Frameworks/QuickTime.framework; sourceTree = SOURCE_ROOT; };
+		75AF8B7F0965C95C00A43000 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = SOURCE_ROOT; };
+		75AF8BAA0965CB8700A43000 /* x264Compressor.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = x264Compressor.r; sourceTree = "<group>"; };
+		75AF8BF30965CDDD00A43000 /* x264Compressor.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = x264Compressor.exp; sourceTree = "<group>"; };
+		75AF8D1E09664F8D00A43000 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Settings.nib; sourceTree = "<group>"; };
+		7FC70E8114C904B2005473E4 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		7FDC5FC914C8F98D007BB982 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
+		7FDC5FCD14C8FAE5007BB982 /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
+		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D01CCD20486CAD60068D4B7 /* x264Codec.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = x264Codec.component; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */,
+				75AF88E30963ADB400A43000 /* CoreServices.framework in Frameworks */,
+				75AF88E40963ADB400A43000 /* QuickTime.framework in Frameworks */,
+				75AF8B800965C95C00A43000 /* QuartzCore.framework in Frameworks */,
+				7FC70E8214C904B2005473E4 /* libx264.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* x264qtcodec */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = x264qtcodec;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7FC70E8114C904B2005473E4 /* libx264.a */,
+				75AF8B7F0965C95C00A43000 /* QuartzCore.framework */,
+				75AF88E10963ADB400A43000 /* CoreServices.framework */,
+				75AF88E20963ADB400A43000 /* QuickTime.framework */,
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75AF8D1D09664F8D00A43000 /* Settings.nib */,
+				8D01CCD10486CAD60068D4B7 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75AF8BAA0965CB8700A43000 /* x264Compressor.r */,
+				75AF8BF30965CDDD00A43000 /* x264Compressor.exp */,
+				75AF88430963A48F00A43000 /* x264CompressorDispatch.h */,
+				75AF88330963A2A500A43000 /* x264Compressor.c */,
+				32BAE0B30371A71500C91783 /* x264qtcodec_Prefix.pch */,
+				7FDC5FC914C8F98D007BB982 /* x264.h */,
+				7FDC5FCD14C8FAE5007BB982 /* x264_config.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* x264Codec.component */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D01CCC60486CAD60068D4B7 /* x264qtcodec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AF88280963A29700A43000 /* Build configuration list for PBXNativeTarget "x264qtcodec" */;
+			buildPhases = (
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				75AF8C0E0965CE5500A43000 /* Rez */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = x264qtcodec;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = x264qtcodec;
+			productReference = 8D01CCD20486CAD60068D4B7 /* x264Codec.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 75AF882C0963A29700A43000 /* Build configuration list for PBXProject "x264qtcodec" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* x264qtcodec */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* x264qtcodec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */,
+				75AF8D1F09664F8D00A43000 /* Settings.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		75AF8C0E0965CE5500A43000 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AF8C160965CE6300A43000 /* x264Compressor.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AF88340963A2A500A43000 /* x264Compressor.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75AF8D1D09664F8D00A43000 /* Settings.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75AF8D1E09664F8D00A43000 /* English */,
+			);
+			name = Settings.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75AF88290963A29700A43000 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				COPY_PHASE_STRIP = NO;
+				EXPORTED_SYMBOLS_FILE = x264Compressor.exp;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = x264qtcodec_Prefix.pch;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					build/Universal,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_LDFLAGS = (
+					"-read_only_relocs",
+					suppress,
+				);
+				PRODUCT_NAME = x264Codec;
+				REZ_PREPROCESSOR_DEFINITIONS = "-rd -d i386_$(i386)";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				USER_HEADER_SEARCH_PATHS = x264;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		75AF882A0963A29700A43000 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				COPY_PHASE_STRIP = YES;
+				EXPORTED_SYMBOLS_FILE = x264Compressor.exp;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = x264qtcodec_Prefix.pch;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					build/Universal,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_LDFLAGS = (
+					"-read_only_relocs",
+					suppress,
+				);
+				PRODUCT_NAME = x264Codec;
+				REZ_PREPROCESSOR_DEFINITIONS = "-rd -d i386_$(i386)";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				USER_HEADER_SEARCH_PATHS = x264;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		75AF882B0963A29700A43000 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				EXPORTED_SYMBOLS_FILE = x264Compressor.exp;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = x264qtcodec_Prefix.pch;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					build/Universal,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_LDFLAGS = (
+					"-read_only_relocs",
+					suppress,
+				);
+				PRODUCT_NAME = x264Codec;
+				REZ_PREPROCESSOR_DEFINITIONS = "-rd -d i386_$(i386)";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				USER_HEADER_SEARCH_PATHS = x264;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Default;
+		};
+		75AF882D0963A29700A43000 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		75AF882E0963A29700A43000 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		75AF882F0963A29700A43000 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75AF88280963A29700A43000 /* Build configuration list for PBXNativeTarget "x264qtcodec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AF88290963A29700A43000 /* Development */,
+				75AF882A0963A29700A43000 /* Deployment */,
+				75AF882B0963A29700A43000 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		75AF882C0963A29700A43000 /* Build configuration list for PBXProject "x264qtcodec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AF882D0963A29700A43000 /* Development */,
+				75AF882E0963A29700A43000 /* Deployment */,
+				75AF882F0963A29700A43000 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
