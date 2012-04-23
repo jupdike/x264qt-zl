@@ -20,7 +20,8 @@ changed by forking and recompiling):
 Binary download
 ===============
 
-A binary download is available <a href="">here</a>.
+A binary download is available <a
+href="blob/master/zips/2012-02-13-x264Codec.component.zip">here</a>.
 
 To use, simply un-zip and move the x264Codec.component to
 /Library/QuickTime (This may require administrator permissions.)  (Or
