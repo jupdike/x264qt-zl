@@ -3,9 +3,9 @@ x264qt-zl
 
 This project is a fork of <a
 href="http://developer.berlios.de/projects/x264qtcodec/">x264
-QuickTime Codec</a>, updated to work with <a
-href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/x264-snapshot-20120119-2245.tar.bz2">a more recent
-x264 code base (x264-snapshot-20120119-2245)</a> and reissued under
+QuickTime Codec</a>, updated to work with
+[a more recent x264 code base](ftp://ftp.videolan.org/pub/videolan/x264/snapshots/x264-snapshot-20120119-2245.tar.bz2)
+(x264-snapshot-20120119-2245) and reissued under
 <a href="http://www.gnu.org/licenses/gpl-2.0.html">the GPL</a> for your hacking pleasure.
 
 Be advised that this little project takes two liberties (easily
