@@ -19,6 +19,8 @@ changed by forking and recompiling):
   2. It changes the four-cc code from 'avc1' to 'x264' in order to
   avoid a collision with the built-in OS X H.264 encoder.
 
+Another caveat: this build is Intel-only, and I have only tested it on Snow Leopard.
+
 Binary download
 ===============
 
