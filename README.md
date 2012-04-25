@@ -4,10 +4,11 @@ x264qt-zl
 This project is a fork of <a
 href="http://developer.berlios.de/projects/x264qtcodec/">x264
 QuickTime Codec</a>, updated to work with
-a more recent x264 code base [1] and reissued under
-<a href="http://www.gnu.org/licenses/gpl-2.0.html">the GPL</a> for your hacking pleasure.
+a more recent <a href="http://git.videolan.org/?p=x264.git;a=summary">x264 code base</a>
+(x264-snapshot-20120119-2245) [1] and reissued under
+<a href="http://www.gnu.org/licenses/gpl-2.0.html">the (same) GPL</a> for your hacking pleasure.
 
-[1] (x264-snapshot-20120119-2245), available here: ftp://ftp.videolan.org/pub/videolan/x264/snapshots/x264-snapshot-20120119-2245.tar.bz2
+[1] available here: ftp://ftp.videolan.org/pub/videolan/x264/snapshots/x264-snapshot-20120119-2245.tar.bz2
 
 Be advised that this little project takes two liberties (easily
 changed by forking and recompiling):
